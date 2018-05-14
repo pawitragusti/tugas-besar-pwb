@@ -39,18 +39,8 @@
 				      <nav id="nav-menu-container">
 				        <ul class="nav-menu">
 				          <li class="menu-active"><a href="welcome">Home</a></li>
-				          <li><a href="About">About</a></li>
 				          <li><a href="#">Cars</a></li>
-				          <li><a href="service">Service</a></li>
-				          <li><a href="team">Team</a></li>	
-				          <li><a href="blog_home">Blog</a></li>	
-				          <li><a href="contact">Contact</a></li>	
-				          <li class="menu-has-children"><a href="">Pages</a>
-				            <ul>
-				              <li><a href="blog-single">Blog Single</a></li>
-				              <li><a href="elements">Elements</a></li>
-				            </ul>
-				          </li>			          
+				          <li><a href="contact">Contact</a></li>   
 				        </ul>
 				      </nav><!-- #nav-menu-container -->		    		
 			    	</div>
