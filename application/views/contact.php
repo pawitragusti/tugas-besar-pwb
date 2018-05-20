@@ -39,8 +39,8 @@
 				      <nav id="nav-menu-container">
 				        <ul class="nav-menu">
 				          <li class="menu-active"><a href="welcome">Home</a></li>
-				          <li><a href="cars">Cars</a></li>
-				          <li><a href="contact">Contact</a></li>
+				          <li><a href="cars">Mobil</a></li>
+				          <li><a href="contact">Kontak</a></li>
 				        </ul>
 				      </nav><!-- #nav-menu-container -->		    		
 			    	</div>
@@ -54,9 +54,9 @@
 					<div class="row d-flex align-items-center justify-content-center">
 						<div class="about-content col-lg-12">
 							<h1 class="text-white">
-								Contact Us
+								Hubungi Segera
 							</h1>	
-							<p class="text-white link-nav"><a href="welcome">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="contact"> Contact Us</a></p>
+							<p class="text-white link-nav"><a href="welcome">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="contact">Kontak</a></p>
 						</div>											
 					</div>
 				</div>
@@ -67,15 +67,18 @@
 			<section class="contact-page-area section-gap">
 				<div class="container">
 					<div class="row">
-						<div class="map-wrap" style="width:100%; height: 445px;" id="map"></div>
+						<div class="map-wrap" style="width:100%; height: 445px;" id="">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d247.25383344477277!2d112.72930717338814!3d-7.458467110920115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sid!4v1526498336399" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+						</div>
 						<div class="col-lg-4 d-flex flex-column address-wrap">
 							<div class="single-contact-address d-flex flex-row">
 								<div class="icon">
 									<span class="lnr lnr-home"></span>
 								</div>
 								<div class="contact-details">
-									<h5>Dhaka, Bangladesh</h5>
-									<p>56/8, West Panthapath</p>
+									<h5>Sidoarjo, Jawa timur</h5>
+									<p>Jl sekawan wangi 2B/2</p>
 								</div>
 							</div>
 							<div class="single-contact-address d-flex flex-row">
@@ -83,8 +86,9 @@
 									<span class="lnr lnr-phone-handset"></span>
 								</div>
 								<div class="contact-details">
-									<h5>00 (880) 9865 562</h5>
-									<p>Mon to Fri 9am to 6 pm</p>
+									<h5>0857 3340 2110</h5>
+									<h5>(031) 827 375 4</h5>
+									<p>Setiap hari 07.00-18.00</p>
 								</div>
 							</div>
 							<div class="single-contact-address d-flex flex-row">
@@ -92,8 +96,8 @@
 									<span class="lnr lnr-envelope"></span>
 								</div>
 								<div class="contact-details">
-									<h5>support@codethemes.com</h5>
-									<p>Send us your query anytime!</p>
+									<h5>nicoatmaja66@gmail.com</h5>
+									<p>Hubungi kami segera</p>
 								</div>
 							</div>														
 						</div>
@@ -101,16 +105,16 @@
 							<form class="form-area " id="myForm" action="mail.php" method="post" class="contact-form text-right">
 								<div class="row">	
 									<div class="col-lg-6 form-group">
-										<input name="name" placeholder="Enter your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control" required="" type="text">
+										<input name="name" placeholder="Nama" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control" required="" type="text">
 									
-										<input name="email" placeholder="Enter email address" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control" required="" type="email">
+										<input name="email" placeholder="Alamat Email" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control" required="" type="email">
 
-										<input name="subject" placeholder="Enter your subject" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your subject'" class="common-input mb-20 form-control" required="" type="text">
+										<input name="subject" placeholder="Subjek" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your subject'" class="common-input mb-20 form-control" required="" type="text">
 										<div class="mt-20 alert-msg" style="text-align: left;"></div>
 									</div>
 									<div class="col-lg-6 form-group">
-										<textarea class="common-textarea form-control" name="message" placeholder="Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" required=""></textarea>
-										<button class="primary-btn mt-20 text-white" style="float: right;">Send Message</button>
+										<textarea class="common-textarea form-control" name="Messege" placeholder="Pesan" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" required=""></textarea>
+										<button class="primary-btn mt-20 text-white" style="float: right;">Kirim</button>
 																				
 									</div>
 								</div>
@@ -125,7 +129,7 @@
 			<footer class="footer-area section-gap">
 				<div class="container">
 					<div class="row">
-						<div class="col-lg-2 col-md-6 col-sm-6">
+						<!--div class="col-lg-2 col-md-6 col-sm-6">
 							<div class="single-footer-widget">
 								<h6>Quick links</h6>
 								<ul>
@@ -157,26 +161,23 @@
 									<li><a href="#">Terms of Service</a></li>
 								</ul>								
 							</div>
-						</div>												
+						</div-->												
 						<div class="col-lg-2 col-md-6 col-sm-6 social-widget">
 							<div class="single-footer-widget">
-								<h6>Follow Us</h6>
-								<p>Let us be social</p>
+								<h6></h6>
+								<p>Hubungi Kami Segera</p>
 								<div class="footer-social d-flex align-items-center">
-									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="https://www.facebook.com/Kakha-rent-car-151548038214578/" target="_blank"><i class="fa fa-facebook"></i></a>
 									<a href="#"><i class="fa fa-twitter"></i></a>
-									<a href="#"><i class="fa fa-dribbble"></i></a>
-									<a href="#"><i class="fa fa-behance"></i></a>
 								</div>
 							</div>
 						</div>							
 						<div class="col-lg-4  col-md-6 col-sm-6">
 							<div class="single-footer-widget">
-								<h6>Newsletter</h6>
-								<p>Stay update with our latest</p>
+								<p>Daftar untuk tawaran eksklusif dan lainnya</p>
 								<div class="" id="mc_embed_signup">
 									<form target="_blank" novalidate="true" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="form-inline">
-										<input class="form-control" name="EMAIL" placeholder="Enter Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '" required="" type="email">
+										<input class="form-control" name="EMAIL" placeholder="Alamat Email Anda" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '" required="" type="email">
 			                            	<button class="click-btn btn btn-default"><span class="lnr lnr-arrow-right"></span></button>
 			                            	<div style="position: absolute; left: -5000px;">
 												<input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">

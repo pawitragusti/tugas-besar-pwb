@@ -39,8 +39,8 @@
 				      <nav id="nav-menu-container">
 				        <ul class="nav-menu">
 				          <li class="menu-active"><a href="welcome">Home</a></li>
-				          <li><a href="#">Cars</a></li>
-				          <li><a href="contact">Contact</a></li>   
+				          <li><a href="cars">Mobil</a></li>
+				          <li><a href="contact">Kontak</a></li>   
 				        </ul>
 				      </nav><!-- #nav-menu-container -->		    		
 			    	</div>
@@ -56,7 +56,7 @@
 							<h1 class="text-white">
 								Pilih sekarang juga			
 							</h1>	
-							<p class="text-white link-nav"><a href="welcome">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="cars"> Cars</a></p>
+							<p class="text-white link-nav"><a href="welcome">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="cars"> Mobil</a></p>
 						</div>											
 					</div>
 				</div>
@@ -90,7 +90,7 @@
 									Air Condition    : Dual Zone <br>
 									Transmisi        : A/T M/T
 								</p>
-								<a class="text-uppercase primary-btn" href="#">Pesan Sekarang Juga</a>
+								<a class="text-uppercase primary-btn" href="welcome">Pesan Sekarang Juga</a>
 							</div>
 							<div class="col-lg-6 model-right">
 								<img class="img-fluid" src="assets/img/car.jpg" alt="">
@@ -111,7 +111,7 @@
 									Air Condition    : Double blower <br>
 									Transmisi        : M/T
 								</p>
-								<a class="text-uppercase primary-btn" href="#">Pesan Sekarang Juga</a>
+								<a class="text-uppercase primary-btn" href="welcome">Pesan Sekarang Juga</a>
 							</div>
 							<div class="col-lg-6 model-right">
 								<img class="img-fluid" src="assets/img/car.jpg" alt="">
@@ -132,7 +132,7 @@
 									Air Condition    : Dual cooled, ventilasi AC belakang <br>
 									Transmission     : AT/MT
 								</p>
-								<a class="text-uppercase primary-btn" href="#">Pesan Sekarang Juga</a>
+								<a class="text-uppercase primary-btn" href="welcome">Pesan Sekarang Juga</a>
 							</div>
 							<div class="col-lg-6 model-right">
 								<img class="img-fluid" src="assets/img/car.jpg" alt="">
@@ -144,7 +144,7 @@
 			<!-- End model Area -->			
 
 			<!-- Start callaction Area -->
-			<section class="callaction-area relative section-gap">
+			<!--section class="callaction-area relative section-gap">
 				<div class="overlay overlay-bg"></div>
 				<div class="container">
 					<div class="row justify-content-center">
@@ -157,11 +157,11 @@
 						</div>
 					</div>
 				</div>	
-			</section>
+			</section-->
 			<!-- End callaction Area -->
 
 			<!-- Start feature Area -->
-			<section class="feature-area section-gap" id="service">
+			<!--section class="feature-area section-gap" id="service">
 				<div class="container">
 					<div class="row d-flex justify-content-center">
 						<div class="col-md-8 pb-40 header-text">
@@ -222,14 +222,14 @@
 						</div>						
 					</div>
 				</div>	
-			</section>
+			</section-->
 			<!-- End feature Area -->				
 	
 			<!-- start footer Area -->		
-			<footer class="footer-area section-gap">
+		<footer class="footer-area section-gap">
 				<div class="container">
 					<div class="row">
-						<div class="col-lg-2 col-md-6 col-sm-6">
+						<!--div class="col-lg-2 col-md-6 col-sm-6">
 							<div class="single-footer-widget">
 								<h6>Quick links</h6>
 								<ul>
@@ -261,26 +261,23 @@
 									<li><a href="#">Terms of Service</a></li>
 								</ul>								
 							</div>
-						</div>												
+						</div-->												
 						<div class="col-lg-2 col-md-6 col-sm-6 social-widget">
 							<div class="single-footer-widget">
-								<h6>Follow Us</h6>
-								<p>Let us be social</p>
+								<h6></h6>
+								<p>Hubungi Kami Segera</p>
 								<div class="footer-social d-flex align-items-center">
-									<a href="#"><i class="fa fa-facebook"></i></a>
+									<a href="https://www.facebook.com/Kakha-rent-car-151548038214578/" target="_blank"><i class="fa fa-facebook"></i></a>
 									<a href="#"><i class="fa fa-twitter"></i></a>
-									<a href="#"><i class="fa fa-dribbble"></i></a>
-									<a href="#"><i class="fa fa-behance"></i></a>
 								</div>
 							</div>
 						</div>							
 						<div class="col-lg-4  col-md-6 col-sm-6">
 							<div class="single-footer-widget">
-								<h6>Newsletter</h6>
-								<p>Stay update with our latest</p>
+								<p>Daftar untuk tawaran eksklusif dan lainnya</p>
 								<div class="" id="mc_embed_signup">
 									<form target="_blank" novalidate="true" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="form-inline">
-										<input class="form-control" name="EMAIL" placeholder="Enter Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '" required="" type="email">
+										<input class="form-control" name="EMAIL" placeholder="Alamat Email Anda" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '" required="" type="email">
 			                            	<button class="click-btn btn btn-default"><span class="lnr lnr-arrow-right"></span></button>
 			                            	<div style="position: absolute; left: -5000px;">
 												<input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
